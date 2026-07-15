@@ -1,0 +1,35 @@
+# === C++ ===
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.lib
+*.so
+*.dll
+*.dSYM/
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.exe~
+*.app
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# === General ===
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
